@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    color: #fff;
+    overflow: hidden;
+    background: #d39521;
+    font-family : 'Glegoo';
+    font-size: 20px;
+  }
+  svg{
+    width: 100vw;
+    height: 100vh;
+    fill: #0D4289;
+  }
+  .step-container{
+    -webkit-filter: url("#goo");
+    filter: url("#goo");  
+  }
+  .step{
+    stroke: #ffb158;
+    stroke-width: 0px;
+  }
+  .line{
+    stroke: #0D4289;
+    stroke-width: 6px;
+  }
+  span{
+    display: block;
+    position: absolute;  
+  }
+  .step-number{
+    left: 20%;top: 60%;
+    margin : -55px 0 0 -6px;
+  }
+  .step-info{
+    font-size: 12px;
+    width: 60px;
+    line-height: 14px;
+    text-align: center;
+    top: 60%; left: 20%;
+    margin: 30px 0 0 -30px;
+  }
+  .step-info:nth-of-type(3){
+    left: 40%;
+  }
+  .step-info:nth-of-type(4){
+    left: 60%;
+  }
+  .step-info:nth-of-type(5){
+    left: 80%;
+  }
